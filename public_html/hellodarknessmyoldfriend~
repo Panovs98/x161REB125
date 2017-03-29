@@ -1,0 +1,13 @@
+<html>
+<body>
+<h1 onclick="hehe('sekcija')">DAB</h1>
+<div id='sekcija' onclick="hehe(this)">Click to dab</div>
+<img src = "https://media.giphy.com/media/yYrYPXatpCMiA/giphy.gif"
+</body>
+<script>
+function hehe(obj){
+	var adr = document.getElementById(obj);
+	adr.innerHTML='Great'
+}
+</script>
+</html>
